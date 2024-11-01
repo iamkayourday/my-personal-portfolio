@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <div>Renders the application's header, importing and displaying Logo and Navbar.
-</div>
+    <>
+    <Navbar />
+    </>
   )
 }
 
