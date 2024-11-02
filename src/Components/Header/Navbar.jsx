@@ -23,7 +23,7 @@ function Navbar() {
     },
     {
       id: 5,
-      text: "Experience & Education",
+      text: "Experience",
     },
     {
       id: 6,

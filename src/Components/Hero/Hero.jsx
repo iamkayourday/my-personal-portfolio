@@ -1,8 +1,11 @@
 import React from 'react'
+import Introduction from './Introduction'
 
 const Hero = () => {
   return (
-    <div>Displays the hero section, importing and displaying ProfileImage, Introduction</div>
+    <>
+    <Introduction />
+    </>
   )
 }
 
