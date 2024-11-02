@@ -1,8 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap");
+/* App.css */
+
+/* Add the following to your CSS file */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Poppins", sans-serif;
+@layer base {
+    /* Default Light Mode Styles */
+    body {
+        @apply bg-white text-black transition-colors duration-300; 
+    }
+    p {
+      @apply text-gray-900 dark:text-gray-200
+    }
+    h1, h2, h3, h4, h5, h6 {
+        @apply text-gray-800 transition-colors duration-300;
+    }
+
+
+}
+
+/* Dark Mode Styles */
+@layer base {
+    .dark body {
+        @apply bg-gray-900 text-white; 
+    }
+
+    .dark h1,
+    .dark h2,
+    .dark h3,
+    .dark h4,
+    .dark h5,
+    .dark h6 {
+        @apply text-gray-200; 
+    }
+
+    
 }

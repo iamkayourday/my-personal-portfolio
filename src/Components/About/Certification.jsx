@@ -2,7 +2,8 @@ import React from 'react';
 
 const Certification = () => {
   return (
-    <div name="Certification" className="max-w-screen-lg mx-auto p-6 my-12 bg-gray-100 rounded-lg shadow-lg">
+    <div name="Certification" 
+    className="max-w-screen-2xl mx-auto px-4 md:px-14 my-6  rounded-lg shadow-lg">
       <h2 className="text-2xl font-bold text-gray-800 mb-4">Certifications</h2>
       <ul className="list-disc list-inside space-y-2">
         <li className="text-base text-gray-700">

@@ -10,7 +10,7 @@ function Home() {
     <>
       <div
         name="Home"
-        className="max-w-screen-2xl mx-auto px-4 md:px-14 my-20 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20"
+        className="max-w-screen-2xl mx-auto px-4 md:px-14 my-10 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10"
       >
         {/* Left Section */}
         <div className="mt-12 md:mt-24 space-y-6">
@@ -97,9 +97,9 @@ function Home() {
         </div>
 
         {/* Image */}
-        <div className="flex justify-center mt-16 md:mt-20">
+        <div className="flex justify-start mt-16 md:mt-20">
           <img
-            src="https://via.placeholder.com/150"
+            src="basit.jpg"
             className="rounded-md w-[350px] h-[350px] md:w-[350px] md:h-[350px] shadow-lg"
             alt="Profile"
           />
