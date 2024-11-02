@@ -21,7 +21,7 @@ const Mode = () => {
     return (
         <button
             onClick={toggleDarkMode}
-            className="flex items-center justify-center p-2 mb-2 text-sm text-white  bg-gray-800 dark:bg-gray-200 dark:text-black rounded-md"
+            className="flex items-center justify-center p-2 mb-2 text-sm text-black   dark:text-white rounded-md"
         >
             {isDarkMode ? <SunIcon className="w-5 h-5 mr-1" /> : <MoonIcon className="w-5 h-5 mr-1" />}
         </button>

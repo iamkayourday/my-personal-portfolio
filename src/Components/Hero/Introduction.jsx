@@ -99,7 +99,7 @@ function Home() {
         {/* Image */}
         <div className="flex justify-start mt-16 md:mt-20">
           <img
-            src="basit.jpg"
+            src="https://via.placeholder.com/150/FF5733/FFFFFF?text=Abdulbasit"
             className="rounded-md w-[350px] h-[350px] md:w-[350px] md:h-[350px] shadow-lg"
             alt="Profile"
           />
