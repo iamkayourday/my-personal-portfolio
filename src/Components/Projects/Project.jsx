@@ -35,22 +35,22 @@ function Project() {
       DemoLink: "https://example.com/nodejs-video",
       sourceCode: "https://github.com/example/nodejs-project",
     },
-    {
-      id: 5,
-      logo: "https://via.placeholder.com/150/FFDA33/FFFFFF?text=Python", 
-      name: "Python",
-      description: "An interpreted, high-level programming language for general-purpose programming.",
-      DemoLink: "https://example.com/python-video",
-      sourceCode: "https://github.com/example/python-project",
-    },
-    {
-      id: 6,
-      logo: "https://via.placeholder.com/150/9A33FF/FFFFFF?text=Java", 
-      name: "Java",
-      description: "A high-level, class-based, object-oriented programming language.",
-      DemoLink: "https://example.com/java-video",
-      sourceCode: "https://github.com/example/java-project",
-    },
+    // {
+    //   id: 5,
+    //   logo: "https://via.placeholder.com/150/FFDA33/FFFFFF?text=Python", 
+    //   name: "Python",
+    //   description: "An interpreted, high-level programming language for general-purpose programming.",
+    //   DemoLink: "https://example.com/python-video",
+    //   sourceCode: "https://github.com/example/python-project",
+    // },
+    // {
+    //   id: 6,
+    //   logo: "https://via.placeholder.com/150/9A33FF/FFFFFF?text=Java", 
+    //   name: "Java",
+    //   description: "A high-level, class-based, object-oriented programming language.",
+    //   DemoLink: "https://example.com/java-video",
+    //   sourceCode: "https://github.com/example/java-project",
+    // },
   ];
 
   return (

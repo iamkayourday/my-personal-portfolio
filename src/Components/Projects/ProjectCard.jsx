@@ -23,7 +23,7 @@ const ProjectCard = ({ logo, name, description, DemoLink, sourceCode }) => (
           className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded transition-colors duration-200"
           aria-label={`View source code for ${name}`}
         >
-          View Source Code
+          Source Code
         </a>
       </div>
     </div>
